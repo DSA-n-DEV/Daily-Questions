@@ -1,8 +1,8 @@
 # Asked by PagerDuty
 
-## Question :
+## Question
 
-```
+```text
 Given a positive integer N, find the smallest number of steps it will take to reach 1.
 
 There are two kinds of permitted steps:
