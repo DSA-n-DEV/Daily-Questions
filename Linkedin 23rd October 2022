@@ -1,0 +1,71 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int func(int i,string s, int idx, int**arr){
+    if(idx==s.size()-1){
+        if(s[idx]=='x'){
+            if(i==1){
+                arr[idx][i]=1;
+                return 1;
+            }
+            else{
+                arr[idx][i]=0;
+                return 0;
+            }
+        }
+        else{
+            arr[idx][i]=0;
+            return 0;
+        }
+    }
+    else{
+        if(arr[idx][i]!=-1){
+            return arr[idx][i];
+        }
+        else{
+            if(i==0){
+                if(s[idx]=='x'){
+                    int a=func(i,s,idx+1,arr);
+                    int b=1+func(1,s,idx+1,arr);
+                    arr[idx][i]=min(a,b);
+                    return min(a,b);
+                }
+                else{
+                    int a=1+func(i,s,idx+1,arr);
+                    int b=func(1,s,idx+1,arr);
+                    arr[idx][i]=min(a,b);
+                    return min(a,b);
+                    
+                }
+            }
+            else{
+                if(s[idx]=='x'){
+                    int a=1+func(1,s,idx+1,arr);
+                    arr[idx][i]=a;
+                    return a;
+                }
+                else{
+                    int a=func(1,s,idx+1,arr);
+                    arr[idx][i]=a;
+                    return a;
+                    
+                }
+            }
+        }
+    }
+}
+int main() {
+    // Write C++ code here
+    string s;
+    cin>>s;
+    int**arr=new int*[s.size()];
+    for(int i=0;i<s.size();i++){
+        arr[i]=new int[2];
+        for(int j=0;j<2;j++){
+            arr[i][j]=-1;
+        }
+    }
+    cout<<func(0,s,0,arr)<<endl;
+
+    return 0;
+}
