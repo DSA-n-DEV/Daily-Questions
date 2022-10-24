@@ -29,3 +29,5 @@ The October folder contains the daily questions for the month of October.
 12. [22-10-2022 Palantir](https://github.com/DSA-n-DEV/Daily-Questions/tree/main/Daily%20Questions/October/22-10-2022%20Palantir)
 
 13. [23-10-2022 LinkedIn](https://github.com/DSA-n-DEV/Daily-Questions/tree/main/Daily%20Questions/October/23-10-2022%20LinkedIn)
+
+14. [24-10-2022 Pintrest](https://github.com/DSA-n-DEV/Daily-Questions/tree/main/Daily%20Questions/October/24-10-2022%20Pintrest)
