@@ -31,3 +31,9 @@ The October folder contains the daily questions for the month of October.
 13. [23-10-2022 LinkedIn](https://github.com/DSA-n-DEV/Daily-Questions/tree/main/Daily%20Questions/October/23-10-2022%20LinkedIn)
 
 14. [24-10-2022 Pintrest](https://github.com/DSA-n-DEV/Daily-Questions/tree/main/Daily%20Questions/October/24-10-2022%20Pintrest)
+
+15. [25-10-2022 Jane Street](https://github.com/DSA-n-DEV/Daily-Questions/tree/main/Daily%20Questions/October/25-10-2022%20Jane%20Street)
+
+16. [26-10-2022 Twitter](https://github.com/DSA-n-DEV/Daily-Questions/tree/main/Daily%20Questions/October/26-10-2022%20Twitter)
+
+17. [27-10-2022 Google](https://github.com/DSA-n-DEV/Daily-Questions/tree/main/Daily%20Questions/October/27-10-2022%20Google)
