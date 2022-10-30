@@ -11,7 +11,7 @@ bool func(int arr[], int k, int n){
     {
        a = i+1; //starting index
        b = n - 1; //ending index
-       while(a <= b){
+       while(a < b){
         if(arr[i] + arr[a] + arr[b] == k){ 
             return true;
         }
