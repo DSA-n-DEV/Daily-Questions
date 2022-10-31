@@ -1,3 +1,9 @@
+// Author  Shorya7
+// Changes by reviewer Manobal-Singh-Bagady
+
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     // All possible operations we can perform on two numbers.
@@ -11,7 +17,7 @@ public:
         }
         return res;
     }
-    
+
     // Check if using current list we can react result 24.
     bool checkIfResultReached(vector<double> list) {
         if (list.size() == 1) {
@@ -53,3 +59,26 @@ public:
         return checkIfResultReached(list);
     }
 };
+
+int main(){
+
+    Solution s1;
+    vector<int> ques ;
+
+    int n;
+    cin>>n;
+    for (int i = 0; i < n; i++)
+    {
+        int temp;
+        cin>>temp;
+        ques.push_back(temp);
+    }
+
+    if(s1.judgePoint24(ques)){
+        cout<<"True";
+    }
+    else{
+        cout<<"False";
+    }
+    return 0;
+}
