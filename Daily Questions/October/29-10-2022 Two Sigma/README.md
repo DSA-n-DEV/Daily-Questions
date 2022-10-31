@@ -1,6 +1,6 @@
 # Asked by Two Sigma
 
-A really good problem 
+A really good problem
 
 ## Question
 
