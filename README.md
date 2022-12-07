@@ -6,6 +6,8 @@ This Repo Contains Daily Questions that Major Companies ask in their interviews 
 
 ## Choose From the Months Below:
 
-1. [![image](https://user-images.githubusercontent.com/96862518/199327567-b5efb433-6f74-4cfb-a1a6-aaf074f35d2f.png)](./Daily%20Questions/November/)
+1. [![December](https://user-images.githubusercontent.com/96862518/206203429-c2bbe352-73db-4fff-8437-63752c35b31d.png)](./Daily%20Questions/December/)
 
-2. [![image](https://user-images.githubusercontent.com/96862518/197417291-a25152a2-daa2-4090-afbb-bffecc835a05.png)](./Daily%20Questions/October/)
+2. [![November](https://user-images.githubusercontent.com/96862518/199327567-b5efb433-6f74-4cfb-a1a6-aaf074f35d2f.png)](./Daily%20Questions/November/)
+
+3. [![October](https://user-images.githubusercontent.com/96862518/197417291-a25152a2-daa2-4090-afbb-bffecc835a05.png)](./Daily%20Questions/October/)
